@@ -1,2 +1,183 @@
 *{
-    background-color:pink;
+    /* max-width:100%; */
+    text-align: center;
+    margin: auto;
+
+}
+body{
+    margin:0 auto;
+    background-color: white;
+}
+
+#nav {
+    top:0;
+    position: fixed;
+    z-index:5;
+    display:flex;
+    margin: 0 auto;
+    width:100%;
+    background-color: white;
+}
+
+ #links{
+    width:15rem;
+    border:1px solid black;
+    display: flex;
+    justify-content: space-around;
+    padding:0;
+    
+
+}
+
+#links li {
+    font-size: 1.5rem;
+    list-style:none;
+}
+
+#links a{
+    text-decoration: none;
+}
+
+#logo{
+    width: 15rem;
+}
+nav img {
+    
+    height:10rem;
+    width:10rem;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+#shop{
+    width:15rem;
+}
+.mainContainer{
+    max-width:100%;
+    text-align: center;
+    margin: 10rem auto;
+    
+}
+.container{
+    /* border:2px solid black; */
+    background-color:rgb(251, 243, 234);
+    display: flex;
+    flex-direction: row;
+    margin:1.5rem auto;
+    max-width:65rem;
+}
+
+button{
+    height: 3rem;
+    width:8rem;
+    border-radius: 25%;
+}
+#one{
+    border:3px solid black;
+    /* justify-items:center ;
+    align-items: center;
+    display:grid;
+    grid-template: repeat(2,1fr)/repeat(2,1fr) ;
+    text-align: center; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./media/handshake.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size:800px 500px; */
+    background-size: 100% 100%;
+    min-height:25rem;
+}
+
+#one h1{
+    color:white;
+    /* grid-area:1/1/2/span 2; */
+    
+}
+
+#book{
+    grid-area:2/1/span 1/ span 2;
+    
+}
+
+#two{
+    background-color: rgba(249, 217, 135, 0.68);
+    /* border-top: 2px solid black;
+    border-bottom: 2px solid black; */
+    height:50rem;
+    position:relative;
+    
+}
+
+/* .container img {
+    height:40rem;
+    width:30rem;
+} */
+
+#two .textBox{
+    border:2px solid black;
+    position:absolute;
+    top: 10rem;
+    right:7rem;
+    height: 25rem;
+    width: 25rem;
+    /* margin-left: -10rem; */
+    display:flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    background-color: white;
+
+}
+
+#two img{
+    height:40rem;
+    width:30rem;
+    position: absolute;
+    top:5rem;
+    left: 7rem;
+}
+
+#three{
+    /* border-top: 2px solid black;
+    border-bottom: 2px solid black; */
+    position:relative;
+    flex-direction: row-reverse;
+    height:50rem;
+    /* justify-content:space-around; */
+
+}
+
+#three .textBox{
+    border:2px solid black;
+    position:absolute;
+    top: 10rem;
+    left:7rem;
+    height: 25rem;
+    width: 25rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+
+}
+
+#three img{
+    height:40rem;
+    width:30rem;
+    position: absolute;
+    top:5rem;
+    right: 7rem;
+}
+
+#four{
+    flex-direction: column;
+    border:3px solid black;
+    min-height: 25rem;
+    background-image: url('./media/tile-background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
